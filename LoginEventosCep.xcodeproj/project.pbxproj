@@ -12,6 +12,8 @@
 		E53C3DA21DDBC6F500806515 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53C3DA01DDBC6F500806515 /* Main.storyboard */; };
 		E53C3DA41DDBC6F500806515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53C3DA31DDBC6F500806515 /* Assets.xcassets */; };
 		E53C3DA71DDBC6F500806515 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53C3DA51DDBC6F500806515 /* LaunchScreen.storyboard */; };
+		E53C3DAF1DDBCC1B00806515 /* unamposgrado.png in Resources */ = {isa = PBXBuildFile; fileRef = E53C3DAE1DDBCC1B00806515 /* unamposgrado.png */; };
+		E53C3DB51DDC1BB700806515 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53C3DB41DDC1BB700806515 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E53C3DA31DDBC6F500806515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E53C3DA61DDBC6F500806515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E53C3DA81DDBC6F500806515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E53C3DAE1DDBCC1B00806515 /* unamposgrado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unamposgrado.png; sourceTree = "<group>"; };
+		E53C3DB41DDC1BB700806515 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E53C3DB51DDC1BB700806515 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				E53C3D9B1DDBC6F500806515 /* LoginEventosCep */,
 				E53C3D9A1DDBC6F500806515 /* Products */,
+				E53C3DB31DDC1BB700806515 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +60,7 @@
 		E53C3D9B1DDBC6F500806515 /* LoginEventosCep */ = {
 			isa = PBXGroup;
 			children = (
+				E53C3DAE1DDBCC1B00806515 /* unamposgrado.png */,
 				E53C3D9C1DDBC6F500806515 /* AppDelegate.swift */,
 				E53C3D9E1DDBC6F500806515 /* ViewController.swift */,
 				E53C3DA01DDBC6F500806515 /* Main.storyboard */,
@@ -62,6 +69,14 @@
 				E53C3DA81DDBC6F500806515 /* Info.plist */,
 			);
 			path = LoginEventosCep;
+			sourceTree = "<group>";
+		};
+		E53C3DB31DDC1BB700806515 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E53C3DB41DDC1BB700806515 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +142,7 @@
 				E53C3DA71DDBC6F500806515 /* LaunchScreen.storyboard in Resources */,
 				E53C3DA41DDBC6F500806515 /* Assets.xcassets in Resources */,
 				E53C3DA21DDBC6F500806515 /* Main.storyboard in Resources */,
+				E53C3DAF1DDBCC1B00806515 /* unamposgrado.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
