@@ -77,12 +77,17 @@
                                             <constraint firstAttribute="height" constant="99" id="3lX-Fz-FKX"/>
                                         </constraints>
                                     </imageView>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VHo-0c-2IU" customClass="FBSDKLoginButton">
+                                        <rect key="frame" x="42" y="402" width="290" height="41"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="Pz2-cF-et2" firstAttribute="trailing" secondItem="o8R-H7-inm" secondAttribute="trailing" id="2Hf-CG-r3b"/>
                                     <constraint firstItem="FXM-cx-FHi" firstAttribute="leading" secondItem="skD-XL-EkM" secondAttribute="leading" constant="42" id="4TG-zC-SbH"/>
                                     <constraint firstItem="fgE-9z-alK" firstAttribute="centerX" secondItem="o8R-H7-inm" secondAttribute="centerX" id="7Gw-PL-WTB"/>
                                     <constraint firstItem="fgE-9z-alK" firstAttribute="top" secondItem="Pz2-cF-et2" secondAttribute="bottom" constant="22" id="BlD-60-jyp"/>
+                                    <constraint firstAttribute="trailing" secondItem="VHo-0c-2IU" secondAttribute="trailing" constant="43" id="Bty-oG-Qrq"/>
                                     <constraint firstAttribute="trailing" secondItem="Pz2-cF-et2" secondAttribute="trailing" constant="38" id="Cbq-eD-9gg"/>
                                     <constraint firstItem="Pz2-cF-et2" firstAttribute="top" secondItem="skD-XL-EkM" secondAttribute="top" constant="20" symbolic="YES" id="EAd-g4-poe"/>
                                     <constraint firstAttribute="bottom" secondItem="oym-62-1lE" secondAttribute="bottom" constant="245" id="GsS-jY-4cK"/>
@@ -92,8 +97,10 @@
                                     <constraint firstItem="o8R-H7-inm" firstAttribute="top" secondItem="FXM-cx-FHi" secondAttribute="bottom" constant="45" id="cfs-vd-2NP"/>
                                     <constraint firstItem="fgE-9z-alK" firstAttribute="centerX" secondItem="skD-XL-EkM" secondAttribute="centerX" id="dBH-6E-pOj"/>
                                     <constraint firstItem="FXM-cx-FHi" firstAttribute="top" secondItem="fgE-9z-alK" secondAttribute="bottom" constant="8" id="fBF-8h-tKV"/>
+                                    <constraint firstItem="VHo-0c-2IU" firstAttribute="top" secondItem="oym-62-1lE" secondAttribute="bottom" constant="18" id="gTl-xg-1Y6"/>
                                     <constraint firstItem="o8R-H7-inm" firstAttribute="leading" secondItem="skD-XL-EkM" secondAttribute="leading" constant="37" id="gVi-Wa-oob"/>
                                     <constraint firstItem="o8R-H7-inm" firstAttribute="leading" secondItem="xXK-dl-J2P" secondAttribute="leading" id="lic-cb-myP"/>
+                                    <constraint firstItem="VHo-0c-2IU" firstAttribute="leading" secondItem="skD-XL-EkM" secondAttribute="leading" constant="42" id="pAw-dm-8L3"/>
                                     <constraint firstItem="o8R-H7-inm" firstAttribute="trailing" secondItem="xXK-dl-J2P" secondAttribute="trailing" id="t6F-m3-m77"/>
                                     <constraint firstItem="xXK-dl-J2P" firstAttribute="centerX" secondItem="oym-62-1lE" secondAttribute="centerX" id="vLq-FJ-fKi"/>
                                     <constraint firstItem="FXM-cx-FHi" firstAttribute="leading" secondItem="oym-62-1lE" secondAttribute="leading" id="xi7-fU-Xj3"/>
@@ -116,7 +123,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="71.200000000000003" y="123.68815592203899"/>
+            <point key="canvasLocation" x="-439.19999999999999" y="117.39130434782609"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="7FA-6a-pYa">

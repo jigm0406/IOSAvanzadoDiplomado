@@ -7,16 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E53B38361DEA6054004A0270 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53B38301DEA6054004A0270 /* FBAudienceNetwork.framework */; };
+		E53B38371DEA6054004A0270 /* FBNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53B38311DEA6054004A0270 /* FBNotifications.framework */; };
+		E53B38381DEA6054004A0270 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53B38321DEA6054004A0270 /* FBSDKCoreKit.framework */; };
+		E53B38391DEA6054004A0270 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53B38331DEA6054004A0270 /* FBSDKLoginKit.framework */; };
+		E53B383A1DEA6054004A0270 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53B38341DEA6054004A0270 /* FBSDKMessengerShareKit.framework */; };
+		E53B383B1DEA6054004A0270 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53B38351DEA6054004A0270 /* FBSDKShareKit.framework */; };
+		E53B383D1DEA6C83004A0270 /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53B383C1DEA6C83004A0270 /* AccountKit.framework */; };
+		E53B383F1DEA6C95004A0270 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53B383E1DEA6C95004A0270 /* Bolts.framework */; };
 		E53C3D9D1DDBC6F500806515 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53C3D9C1DDBC6F500806515 /* AppDelegate.swift */; };
 		E53C3D9F1DDBC6F500806515 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53C3D9E1DDBC6F500806515 /* ViewController.swift */; };
 		E53C3DA21DDBC6F500806515 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53C3DA01DDBC6F500806515 /* Main.storyboard */; };
 		E53C3DA41DDBC6F500806515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53C3DA31DDBC6F500806515 /* Assets.xcassets */; };
 		E53C3DA71DDBC6F500806515 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53C3DA51DDBC6F500806515 /* LaunchScreen.storyboard */; };
 		E53C3DAF1DDBCC1B00806515 /* unamposgrado.png in Resources */ = {isa = PBXBuildFile; fileRef = E53C3DAE1DDBCC1B00806515 /* unamposgrado.png */; };
-		E53C3DB51DDC1BB700806515 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53C3DB41DDC1BB700806515 /* SystemConfiguration.framework */; };
+		E53C3DB51DDC1BB700806515 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53C3DB41DDC1BB700806515 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E53B38301DEA6054004A0270 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		E53B38311DEA6054004A0270 /* FBNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBNotifications.framework; sourceTree = "<group>"; };
+		E53B38321DEA6054004A0270 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		E53B38331DEA6054004A0270 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		E53B38341DEA6054004A0270 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		E53B38351DEA6054004A0270 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		E53B383C1DEA6C83004A0270 /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccountKit.framework; sourceTree = "<group>"; };
+		E53B383E1DEA6C95004A0270 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		E53C3D991DDBC6F500806515 /* LoginEventosCep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginEventosCep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53C3D9C1DDBC6F500806515 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E53C3D9E1DDBC6F500806515 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +42,8 @@
 		E53C3DA81DDBC6F500806515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E53C3DAE1DDBCC1B00806515 /* unamposgrado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unamposgrado.png; sourceTree = "<group>"; };
 		E53C3DB41DDC1BB700806515 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E5F283551DECFF92003E83FF /* LoginEventosCep.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoginEventosCep.entitlements; sourceTree = "<group>"; };
+		E5F283561DED1829003E83FF /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +52,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E53C3DB51DDC1BB700806515 /* SystemConfiguration.framework in Frameworks */,
+				E53B38381DEA6054004A0270 /* FBSDKCoreKit.framework in Frameworks */,
+				E53B38391DEA6054004A0270 /* FBSDKLoginKit.framework in Frameworks */,
+				E53B383B1DEA6054004A0270 /* FBSDKShareKit.framework in Frameworks */,
+				E53B38371DEA6054004A0270 /* FBNotifications.framework in Frameworks */,
+				E53B383D1DEA6C83004A0270 /* AccountKit.framework in Frameworks */,
+				E53B383F1DEA6C95004A0270 /* Bolts.framework in Frameworks */,
+				E53B383A1DEA6054004A0270 /* FBSDKMessengerShareKit.framework in Frameworks */,
+				E53B38361DEA6054004A0270 /* FBAudienceNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +86,15 @@
 		E53C3D9B1DDBC6F500806515 /* LoginEventosCep */ = {
 			isa = PBXGroup;
 			children = (
+				E5F283551DECFF92003E83FF /* LoginEventosCep.entitlements */,
+				E53B383E1DEA6C95004A0270 /* Bolts.framework */,
+				E53B383C1DEA6C83004A0270 /* AccountKit.framework */,
+				E53B38301DEA6054004A0270 /* FBAudienceNetwork.framework */,
+				E53B38311DEA6054004A0270 /* FBNotifications.framework */,
+				E53B38321DEA6054004A0270 /* FBSDKCoreKit.framework */,
+				E53B38331DEA6054004A0270 /* FBSDKLoginKit.framework */,
+				E53B38341DEA6054004A0270 /* FBSDKMessengerShareKit.framework */,
+				E53B38351DEA6054004A0270 /* FBSDKShareKit.framework */,
 				E53C3DAE1DDBCC1B00806515 /* unamposgrado.png */,
 				E53C3D9C1DDBC6F500806515 /* AppDelegate.swift */,
 				E53C3D9E1DDBC6F500806515 /* ViewController.swift */,
@@ -67,6 +102,7 @@
 				E53C3DA31DDBC6F500806515 /* Assets.xcassets */,
 				E53C3DA51DDBC6F500806515 /* LaunchScreen.storyboard */,
 				E53C3DA81DDBC6F500806515 /* Info.plist */,
+				E5F283561DED1829003E83FF /* Header.h */,
 			);
 			path = LoginEventosCep;
 			sourceTree = "<group>";
@@ -113,6 +149,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 4C7YU4D49A;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -206,6 +247,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "~/Documents/FacebookSDK/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -226,6 +268,8 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -255,6 +299,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "~/Documents/FacebookSDK/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -267,6 +312,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -275,12 +322,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LoginEventosCep/LoginEventosCep.entitlements;
 				DEVELOPMENT_TEAM = 4C7YU4D49A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LoginEventosCep",
+				);
+				GCC_DYNAMIC_NO_PIC = YES;
 				INFOPLIST_FILE = LoginEventosCep/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.unam.jigm.LoginEventosCep;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.unam.posgrado.Log;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -288,12 +343,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LoginEventosCep/LoginEventosCep.entitlements;
 				DEVELOPMENT_TEAM = 4C7YU4D49A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LoginEventosCep",
+				);
+				GCC_DYNAMIC_NO_PIC = YES;
 				INFOPLIST_FILE = LoginEventosCep/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.unam.jigm.LoginEventosCep;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.unam.posgrado.Log;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -316,6 +379,7 @@
 				E53C3DAD1DDBC6F500806515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
